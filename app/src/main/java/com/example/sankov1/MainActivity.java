@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle("Тест");
     }
 
-    // Внутренний класс DrawView (не public)
+    // Внутренний класс DrawView 
     class DrawView extends View {
         private Paint p;
 
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             p.setColor(Color.BLUE);
             canvas.drawPath(rightFace, p);
 
-            // Обводка чёрным для чёткости (можно убрать, если не нужна)
+            // Обводка чёрным для чёткости 
             p.setStyle(Paint.Style.STROKE);
             p.setColor(Color.BLACK);
             p.setStrokeWidth(3);
